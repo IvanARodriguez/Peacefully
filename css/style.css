@@ -71,7 +71,7 @@ header{
     
     /* <!-- Main --> */
 .main-section{
-    background-image: url("/resources/main.jpeg");
+    background-image: url("/resources/main.jpeg"), url('https://raw.githubusercontent.com/IvanARodriguez/Peacefully/main/mainwebp.webp');
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
