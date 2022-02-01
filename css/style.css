@@ -1,5 +1,48 @@
-    /* <!-- Main --> */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+/* Header styling */
+.header{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: .7rem 1rem;
+    background-color: black;
+}
+.logo{
+    height: 60px;
+    width: 60px;
+    border-radius: .3rem;
+}
+.list_group{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav_link{
+    list-style-type: none;
+    padding: 0 2rem;
+}
+.nav_link a{
+    text-decoration: none;
+    color: #fff;
+}
+    
+    /* <!-- Main --> */
+.main-section{
+    background-image: url('/resources/mainwebp.webp');
+    height: 90vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+}
     /* <!-- Why section --> */
 
     /* <!-- Contact us --> */
