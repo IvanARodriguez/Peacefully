@@ -5,7 +5,8 @@
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #fff;
+    font-weight: bolder;
 }
 
 body{
@@ -16,6 +17,8 @@ body{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    align-items: center;
     padding: .7rem 1rem;
     background-color: black;
 }
@@ -23,6 +26,12 @@ body{
     height: 60px;
     width: 60px;
     border-radius: .3rem;
+}
+.company_name{
+    color: #fff;
+    display: inline-block;
+    align-self: center;
+    justify-self: center;
 }
 .list_group{
     display: inline-flex;
@@ -33,14 +42,18 @@ body{
 .nav_link{
     list-style-type: none;
     padding: 0 2rem;
+    color: #fff;
+}
+.active a{
+    color: orange ;
 }
 .nav_link a{
     text-decoration: none;
-    color: #fff;
 }
 .nav_link a:hover{
     color: orange;
     transition: all 100ms ease-in-out;
+    color: rgb(203, 203, 203);
 }
     
     /* <!-- Main --> */
@@ -50,6 +63,15 @@ body{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+}
+.main-title{
+    letter-spacing: 5px;
+    margin-bottom: 1.3rem;
+}
+.main-subtitle{
+    font-size: 3rem;
+    color: rgb(243, 186, 82);
+    letter-spacing: 3px;
 }
 .wrapper{
     width: inherit;
