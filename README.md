@@ -15,4 +15,4 @@ We plan to have implement responsive design in the future, a lot more informatio
 Please stay tunned to be one of the user that enjoys this tremendous experience.
 
 ## License
-[MIT] (https://choosealicense.com/licenses/agpl-3.0/)
+[GNU](https://choosealicense.com/licenses/agpl-3.0/)
