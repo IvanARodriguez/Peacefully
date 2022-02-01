@@ -71,7 +71,7 @@ header{
     
     /* <!-- Main --> */
 .main-section{
-    background-image: url('/resources/mainwebp.webp');
+    background-image: url("/resources/mainwebp.webp");
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
