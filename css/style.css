@@ -71,7 +71,7 @@ header{
     
     /* <!-- Main --> */
 .main-section{
-    background-image:url('https://raw.githubusercontent.com/IvanARodriguez/Peacefully/main/mainwebp.webp');
+    background-image: url('https://raw.githubusercontent.com/IvanARodriguez/Peacefully/main/mainwebp.webp');
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
@@ -82,6 +82,7 @@ header{
     letter-spacing: 5px;
     margin-bottom: 1.3rem;
     transition: letter-spacing 800ms ease-in;
+    font-weight: 300;
 }
 .main-subtitle{
     font-size: 3rem;
@@ -113,6 +114,7 @@ header{
     font-size: 1.5rem;
     border: 2px solid orange;
     border-radius: .3em;
+    box-shadow: 5px 8px 15px rgba(0, 0, 0, 0.423);
 }
 .Focus:hover, .Learn:hover{
     background-color: orange;
