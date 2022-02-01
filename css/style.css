@@ -81,11 +81,13 @@ header{
 .main-title{
     letter-spacing: 5px;
     margin-bottom: 1.3rem;
+    transition: letter-spacing 800ms ease-in;
 }
 .main-subtitle{
     font-size: 3rem;
     color: rgb(243, 186, 82);
     letter-spacing: 3px;
+    transition: letter-spacing 600ms ease-in;
 }
 .wrapper{
     width: inherit;
@@ -125,7 +127,6 @@ header{
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
         padding: 10px;
-
     }
 
 
