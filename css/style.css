@@ -5,24 +5,46 @@
 }
 a{
     text-decoration: none;
-    color: black;
+    color: #fff;
+    font-weight: bolder;
 }
 
 body{
     font-family: 'Roboto', sans-serif;
 }
+header{
+    width: 100%;
+    height:  6rem;
+    margin: 0 auto;
+    z-index: 10;
+    position: fixed;
+    margin: 0 auto;
+}
+.container{
+    max-width: 1100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
 /* Header styling */
 .header{
     width: 100%;
     display: flex;
     justify-content: space-between;
+    align-content: center;
+    align-items: center;
     padding: .7rem 1rem;
-    background-color: black;
 }
 .logo{
     height: 60px;
     width: 60px;
     border-radius: .3rem;
+}
+.company_name{
+    color: #fff;
+    display: inline-block;
+    align-self: center;
+    justify-self: center;
 }
 .list_group{
     display: inline-flex;
@@ -33,34 +55,49 @@ body{
 .nav_link{
     list-style-type: none;
     padding: 0 2rem;
+    color: #fff;
+}
+.active a{
+    color: orange ;
 }
 .nav_link a{
     text-decoration: none;
-    color: #fff;
 }
 .nav_link a:hover{
     color: orange;
     transition: all 100ms ease-in-out;
+    color: rgb(203, 203, 203);
 }
     
     /* <!-- Main --> */
 .main-section{
-    background-image: url('/resources/mainwebp.webp');
+    background-image:url('https://raw.githubusercontent.com/IvanARodriguez/Peacefully/main/mainwebp.webp');
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: bottom;
+    position: relative;
+}
+.main-title{
+    letter-spacing: 5px;
+    margin-bottom: 1.3rem;
+}
+.main-subtitle{
+    font-size: 3rem;
+    color: rgb(243, 186, 82);
+    letter-spacing: 3px;
 }
 .wrapper{
     width: inherit;
     height: inherit;
     background: rgb(0,0,0);
-    background: linear-gradient(180deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7217261904761905) 32%, rgba(0,212,255,0) 100%);
+    background: linear-gradient(180deg, rgba(0,0,0,.9) 0%, rgba(0,0,0,0.7217261904761905) 32%, rgba(0,212,255,0) 100%);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     color: #fff;
+    padding: 0 1rem;
 }
 .button_group{
     display: flex;
@@ -73,6 +110,7 @@ body{
     cursor: pointer;
     font-size: 1.5rem;
     border: 2px solid orange;
+    border-radius: .3em;
 }
 .Focus:hover, .Learn:hover{
     background-color: orange;
@@ -86,8 +124,8 @@ body{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
-        background-color: #2196F3;
         padding: 10px;
+
     }
 
 
@@ -96,6 +134,10 @@ body{
       text-align: center;
       padding: 20px 0;
       font-size: 30px; 
+    }
+
+    .grid-container > div button {
+        background-color:fuchsia;
     }
 
     .gridcotainer h1 {
@@ -112,6 +154,30 @@ body{
 
     .why-title {
         text-align: center;
+    }
+
+    .button-why {
+        background-color: #333ed8;
+        border: none;
+        padding: 20px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+      }
+
+    .button-1 {
+        border-radius: 25%;
+    }
+
+    .img-item {
+        border-radius: 40px;
+        box-shadow: 10px 10px 5px #ccc;
+        transition: all .2s ease-in-out; 
+     
+    }
+
+    .img-item:hover {
+        transform: scale(1.1);
     }
 
     /* <!-- Contact us --> */
