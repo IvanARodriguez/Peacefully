@@ -108,8 +108,8 @@ body{
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         grid-gap: 10px;
-        background-color: #2196F3;
         padding: 10px;
+
     }
 
 
@@ -118,6 +118,10 @@ body{
       text-align: center;
       padding: 20px 0;
       font-size: 30px; 
+    }
+
+    .grid-container > div button {
+        background-color:fuchsia;
     }
 
     .gridcotainer h1 {
@@ -134,6 +138,30 @@ body{
 
     .why-title {
         text-align: center;
+    }
+
+    .button-why {
+        background-color: #333ed8;
+        border: none;
+        padding: 20px;
+        text-align: center;
+        font-size: 16px;
+        margin: 4px 2px;
+      }
+
+    .button-1 {
+        border-radius: 25%;
+    }
+
+    .img-item {
+        border-radius: 40px;
+        box-shadow: 10px 10px 5px #ccc;
+        transition: all .2s ease-in-out; 
+     
+    }
+
+    .img-item:hover {
+        transform: scale(1.1);
     }
 
     /* <!-- Contact us --> */
