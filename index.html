@@ -52,15 +52,35 @@
     </div>
 
     <!-- Contact us -->
-    <div></div> class="container">
-  <form action="action_page.php">
+    <section class="contact_section">
+        <!-- heading -->
+        <div class="heading_group">
+            <h1 class="contact_title">Get in touch</h1>    
+            <h2 class="contact_subtitle">Send us a message and we will get back as soon as possible</h2>
+        </div>
+        <!-- Form  -->
+        
+        <form class="contact_form" action="action_page.php">
 
-    <label for="fname">First Name</label>
-    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+            <label for="fname">First Name</label>
+            <input class="form_input" type="text" id="fname" name="firstname" placeholder="Your name..">
+        
+            <label for="lname">Last Name</label>
+            <input class="form_input" type="text" id="lname" name="lastname" placeholder="Your last name..">
 
-    <label for="lname">Last Name</label>
-    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
-
+            
+            <button type="submit" class="form_btn">Submit here </button>
+        </form>
+    </section>
     <!-- Footer -->
+    <footer class="footer_section">
+        <h1 class="footer_title">Made with passion from peaceful developers</h1>
+        <div class="social_icons">
+            <i class="uil uil-facebook icon"></i>
+            <i class="uil uil-twitter icon"></i>
+            <i class="uil uil-github icon"></i>
+        </div>
+        <p class="copy">&#169; copyright 2022</p>
+    </footer>
 </body>
 </html>

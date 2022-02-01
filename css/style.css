@@ -181,8 +181,77 @@ header{
     }
 
     /* <!-- Contact us --> */
-    
-
-
-
+    .contact_section {
+        padding: 10em 2rem;
+        color:#fff;
+        background-color: #333ed8;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact_title{
+        margin-bottom: 1.7rem;
+        font-size: 2rem;
+    }
+    .contact_subtitle{
+        font-weight: 300;
+        margin-bottom: 1.7rem;
+    }
+    .contact_form{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        width: 100%;
+        justify-content: center;
+        max-width: 600px;
+    }
+    .form_input{
+        padding: 1rem;
+        max-width: 600px;
+        border-radius: .4rem;
+        font-size: 1.3rem;
+        border: none;
+    }
+    .form_btn{
+        width: 200px;
+        padding:.7rem;
+        background-color: orange;
+        color: #fff;
+        font-size: 1.5rem;
+        border:none;
+        border-radius: .4rem;
+        margin-top: 2rem;
+    }
+    .form_btn:hover {
+        background-color: rgb(201, 132, 5);
+        transition: all 200ms ease-in-out;
+    }
     /* <!-- Footer --> */
+    .footer_section{
+        padding: 4rem 2rem;
+        background-color: rgb(48, 47, 47);
+        color: #fff;
+        text-align: center;
+    }
+    .footer_title{
+        margin-bottom: 2rem;
+        font-weight: 300;
+        font-size: 1.4rem;
+        
+    }
+    .social_icons{
+        display: flex; 
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+        font-size: 2rem;
+        column-gap: 1.3rem;
+    }
+    .icon{
+        color: orange;
+        
+    }
+    .copy{
+        color: grey;
+    }
